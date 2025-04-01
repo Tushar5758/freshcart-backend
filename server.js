@@ -95,9 +95,9 @@ app.get("/image/:id", (req, res) => {
 });
 
 // ** Serve HTML File **
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "home.html"));
-});
+// app.get("/", (req, res) => {
+//     res.sendFile(path.join(__dirname, "public", "home.html"));
+// });
 
 // ** NEW ENDPOINT: Get products by category **
 app.get("/products", (req, res) => {
